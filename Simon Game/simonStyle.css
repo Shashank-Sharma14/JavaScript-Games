@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    background-color: rgb(182, 192, 179);
+  }
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  3%;
+    color: #378C3F;
+  }
+  
+  .dice {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 20%;
+  }
+
+  @media (max-width :800px){
+    .btn {
+      margin: 25px;
+      display: inline-block;
+      height: 100px;
+      width: 100px;
+      border: 5px solid black;
+      border-radius: 20%;
+    }
+    #level-title {
+      font-family:  cursive;
+      font-size: 2rem;
+      margin:  3%;
+      color: #378C3F;
+    }
+  }
+
+  @media (max-width :500px){
+    .btn {
+      margin: 25px;
+      display: inline-block;
+      height: 65px;
+      width: 65px;
+      border: 5px solid black;
+      border-radius: 20%;
+    }
+
+    #level-title {
+      font-family:  cursive;
+      font-size: 2rem;
+      margin:  3%;
+      color: #378C3F;
+    }
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: rgb(182, 192, 179);
+      padding: 7px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 7px;
+      margin: 20px 20px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 12px;
+    }
+    button1 {
+      background-color: rgb(182, 192, 179); 
+      color: black; 
+      border: 1px solid #4CAF50;
+    }
+    
+    .button1:hover {
+      background-color: #4CAF50;
+      color: rgb(182, 192, 179);
+    }
+  
+  
+  }
+  
+  .button-dark {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(182, 192, 179);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 250px 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+ 
+  
+  .button1 {
+    background-color: rgb(182, 192, 179); 
+    color: black; 
+    border: 1px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: rgb(182, 192, 179);
+  }
+
+
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: rgb(226, 55, 55);
+  }
+  
+  .green {
+    background-color: rgb(70, 170, 70);
+  }
+  
+  .blue {
+    background-color: rgb(80, 80, 189);
+  }
+  
+  .yellow {
+    background-color: rgb(207, 207, 92);
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
