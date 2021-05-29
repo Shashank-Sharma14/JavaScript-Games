@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <button class="show-modal">Guess my number</button>
+    <button class="show-modal">Pig (dice game)</button>
+    <!-- <button class="show-modal">Show modal 3</button> -->
+
+    <div class="guess-number hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Guess my number ? 😍</h1>
+      <h2>Instruction :</h2>
+      <br />
+      <br />
+      <ul>
+        <li><p>Enter your guess</p></li>
+        <li>
+          <p>See if your guess is too high or too low</p>
+        </li>
+        <li>
+          <p>Change your guess</p>
+        </li>
+        <li>
+          <p>The computer will tell you how many guesses you have</p>
+        </li>
+      </ul>
+      <br />
+      <br />
+      <h2>Note : No. of guesses left is equal to your score</h2>
+      <br />
+      <br />
+      <br />
+      <div>
+        <a
+          href="Guess-My-Number/Guess-My-Number.html"
+          class="center clickme success"
+          >Play Now</a
+        >
+      </div>
+    </div>
+
+    <div class="pig-game hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Welcome to Pig game 😍</h1>
+      <h2>Instruction :</h2>
+      <br />
+      <br />
+      <h2>
+        Each turn, a player repeatedly rolls a die until either a 1 is rolled or
+        the player decides to "hold"
+      </h2>
+      <br />
+      <ul>
+        <li>
+          <p>
+            If the player rolls a 1, they score nothing and it becomes the next
+            player's turn.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the player rolls any other number, it is added to their turn
+            total and the player's turn continues.
+          </p>
+          <p></p>
+        </li>
+        <li>
+          <p>
+            If a player chooses to "hold", their turn total is added to their
+            score, and it becomes the next player's turn.
+          </p>
+          <p></p>
+        </li>
+        <li>
+          <p>The first player to score 50 or more points wins.</p>
+          <p></p>
+        </li>
+      </ul>
+      <br />
+      <p><strong>This is the flowchart of how the game work</strong></p>
+      <br />
+      <img src="pig-game-flowchart.png" alt="pig-game" height="250" />
+      <br />
+      <br />
+      <br />
+      <div>
+        <a
+          href="Who-Score-20-First/Who-Score-20-First.html"
+          class="center clickme success"
+          >Play Now</a
+        >
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
