@@ -60,7 +60,8 @@ p {
 }
 
 .guess-number,
-.pig-game {
+.pig-game,
+.simon-game {
   position: absolute;
   top: 50%;
   left: 50%;
